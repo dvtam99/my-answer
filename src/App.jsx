@@ -24,14 +24,15 @@ function App() {
   return (
     <div>
       <div className='answer' onClick={getRandomResponse}>
-        {isLoading? <div className="load-container">
-    <div className="outer-ring">
+        {isLoading? <h2>
+        Chờ chút đi...
+    {/* <div className="outer-ring" >  className="load-container"
       <div className="inner-ring"></div>
-    </div>
-  </div>
+    </div> */}
+  </h2>
   :<>
-          <h2>{response.vi}</h2>
-        <p>{response.en}</p>
+          <h1>{response.vi}</h1>
+        <h2>{response.en}</h2>
         {/* < onClick={}>?</> */}
         <p>Click me to change your mind</p>
         </>}

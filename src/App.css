@@ -122,7 +122,7 @@ body {
 .wrapper {
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
+  background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #7072bd);
   position: absolute;
 }
 .wrapper h1 {
@@ -198,7 +198,7 @@ div .dot {
   animation: animate 10s linear infinite;
 }
 .wrapper div:nth-child(9) {
-  top: 50%;
+  /* top: 50%; */
   left: 50%;
   animation: animate 6s linear infinite;
 }
@@ -241,6 +241,7 @@ div .dot {
   }
 }
 .answer{
+  color: #fff;
   position: absolute;
   /* top: 40vh; */
   /* left: 40vw; */
